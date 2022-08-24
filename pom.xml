@@ -13,6 +13,7 @@
         <module>m2_enum</module>
         <module>m3-lambda</module>
         <module>m4-double_colon_operator</module>
+        <module>m5-comparator_interface</module>
     </modules>
 
     <properties>
