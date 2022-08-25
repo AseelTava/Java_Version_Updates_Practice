@@ -29,7 +29,7 @@ public class AppleTest {
         inventory.sort(comparing(Apple::getWeight).reversed());
         System.out.println(inventory);
 
-        //Chaining
+        //Chaining . 1- sort 2- reverse 3- compare
         inventory
                 .sort(comparing(Apple::getWeight)
                 .reversed().thenComparing(Apple::getColor));

@@ -1,5 +1,6 @@
 package com.cydeo;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -32,8 +33,8 @@ public class Main {
         list.sort((o2, o1) -> o1.compareTo(o2));
         System.out.println(list);
 
-
-
+      List<Integer> num = Arrays.asList(25,35,10,92);
+        System.out.println(num);
 
 
     }
