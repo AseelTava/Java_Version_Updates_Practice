@@ -10,8 +10,7 @@ public class CharStreamTask {
         List<String> words = Arrays.asList("JAVA","APPLE","HONDA","DEVELOPER");
 
         words.stream()
-                .map(str -> str.length())
+                .map(str->str.length())
                 .forEach(System.out::println);
-
     }
 }

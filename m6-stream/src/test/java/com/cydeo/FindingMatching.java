@@ -13,7 +13,6 @@ public class FindingMatching {
 
     public static void main(String[] args) {
 
-
         System.out.println("ALL MATCH");
         boolean isHealthy = DishData.getAll().stream().allMatch(dish -> dish.getCalories()<1000);
         System.out.println(isHealthy);
@@ -59,6 +58,15 @@ public class FindingMatching {
         System.out.println("Max");
         Optional<Dish> dMax = DishData.getAll().stream().max(Comparator.comparing(Dish::getCalories));
         System.out.println(dMax);
+
+
+
+
+
+
+
+
+
 
 
 
